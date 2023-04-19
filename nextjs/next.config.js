@@ -4,6 +4,9 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     externalDir: true,
+  },
+  images: {
+    unoptimized: true
   }
 }
 
